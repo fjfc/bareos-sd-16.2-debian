@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# MAINTAINER Barcus <barcus@tou.nu>
+# MAINTAINER fjfernandez <fjfc83@gmail.com>
 
 if [ ! -f /etc/bareos/bareos-config.control ]
   then
