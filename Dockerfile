@@ -1,4 +1,4 @@
-# BareOS director Dockerfile
+# BareOS storage Dockerfile
 FROM       debian:latest
 MAINTAINER fjfernandez <fjfc83@gmail.com>
 
