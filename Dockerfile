@@ -19,8 +19,8 @@ RUN tar cfvz /bareos-sd.tgz /etc/bareos/bareos-sd.d
 
 EXPOSE 9103
 
-VOLUME /etc/bareos
-VOLUME /var/lib/bareos/storage
+VOLUME /root/bareos/bareos-sd/config:/etc/bareos
+VOLUME /root/bareos/bareos-sd/storage:/var/lib/bareos/storage
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["/usr/sbin/bareos-sd", "-u", "bareos", "-f"]
